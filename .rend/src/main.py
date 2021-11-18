@@ -2,20 +2,23 @@
 
 import time 
 from plyer import notification
-
+a = input('Notification Title:')
+m = input('Notification Message:')
+t = input('Stay on Message:')
+n = eval(input('Notification Repet'))
 if __name__ == "__main__" :
     while True:
         notification.notify(
 
-            title="Drink Water Now",
-            message="Drink water for health then Codeing or whatever you work in this pc.",
-            app_name="Drink Water",
-            ticker="Drink water NOW and then code",
+            title= a ,
+            message= m ,
+            app_name="Rend",
+            ticker= t ,
             toast="true",
 
             #stay notification 3 sec
             timeout= 3
         )
         # next notification after 10 sec 
-        time.sleep(10)
+        time.sleep(n)
 
