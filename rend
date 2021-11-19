@@ -1,0 +1,12 @@
+#!/bin/bash 
+python3 ~/.rend/src/main.py &
+while [ -n "$1" ]
+do
+        case "$1" in
+                -r)python3 ~/.rend/src/main.py ;;
+                *)cat ~/.rend/src/help.txt;;
+        esac
+        shift
+done
+
+

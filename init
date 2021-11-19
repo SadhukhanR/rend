@@ -1,0 +1,11 @@
+#!/bin/bash
+while [ -n "$1" ]
+do
+        case "$1" in
+                -i)cp -r .rend /root;cp LICENSE ~/.rend/src/;cat ~/.rend/src/LICENSE;cat ~/.rend/src/pipe.txt;cp rend /usr/local/bin ;cp ren /usr/local/bin;echo "Copying ........[################################100%] done!";cat ~/.rend/src/pipe.txt;yeah=$(cat .rend/log/logname.txt);mkdir /home/"$yeah"/Desktop/rend||echo "Copying.... Installed Faild!! < Check Your Root Permission >";;
+                -u)cat ~/.rend/src/LICENSE;cat  ~/.rend/src/pipe.txt ; rm -rf /usr/local/bin/rend;rm -rf /usr/local/bin/ren;echo "WARNING!............... Uninstalled!!";cat ~/.rend/src/pipe.txt;rm -rf ~/.rend||echo "Uninstall Failed !!";;
+		-o) cat .rend/src/log.txt; python3 .rend/src/log.py > .rend/log/logname.txt;;
+              esac
+              shift
+            done
+

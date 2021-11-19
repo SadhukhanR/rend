@@ -1,5 +1,0 @@
-1) First,run this file 	python3 drinkWater.py & 	it runs in background and save the id 
-
-2) if you for forget 	ps ax | grep drinkWater.py to see the id
-3) then kill it if you want to stop the background process.
-
