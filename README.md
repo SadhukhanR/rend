@@ -21,7 +21,7 @@ For Plyer
 #### 2. Following Commands
 After cloning run following commands on shell 
         
-        cd rend
+        cd rend/
         
         
 Installation Command
