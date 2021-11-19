@@ -1,5 +1,5 @@
 # rend
-Rend Let Me Notify 
+> Rend Let Me Notify 
 <br>
 ## Installation 
 Before Installing Read Carefully !!
@@ -11,7 +11,7 @@ For Plyer
 
 
 
-          pip3 install Plyer
+          pip3 install plyer
 ### Steps
 
 #### 1. Cloning
@@ -25,7 +25,7 @@ After cloning run following commands on shell
 Installation Command
 
     
-       su;./init -i
+       su;./init -o;./init -i
 
 
 
