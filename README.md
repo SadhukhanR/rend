@@ -1,7 +1,5 @@
 # rend
 Rend Let Me Notify 
-# Bmiconsole
-Health Index Testing For Linux Users
 <br>
 ## Installation 
 Before Installing Read Carefully !!
