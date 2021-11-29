@@ -1,5 +1,0 @@
-#!/bin/bash
-python3 ~/.rend/src/main.py &
-ps ax | grep ~/.rend/src/main.py
-python3 ~/.rend/src/main.py
-
