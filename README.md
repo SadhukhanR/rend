@@ -7,7 +7,7 @@
 To run this program you need python3 or python3.9
 
 <br>
-Installing bimconsole is very easy just download installer.sh file
+Installing Rend is very easy just download installer.sh file
 <a href="https://raw.githubusercontent.com/SadhukhanR/rend/main/installer.sh">Download</a>
 And Copy this file in Root Dir [Root Needed] and paste command below 
 
